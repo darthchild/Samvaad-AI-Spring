@@ -2,9 +2,9 @@ spring:
     application.name: Samvaad
 
 fireworks:
-    api.key: "fw_3ZLk6sNbacQQH4DzrXavzrxT"
-    url: "https://api.fireworks.ai/inference/v1/chat/completions"
+    api.key: ${FIREWORKS_API_KEY}
+    url: ${FIREWORKS_URL}
 
 runpod:
-    api.key: "7S2N1FK9YOX2FR55EB2YNENM5NPNYFAQKQPG7VBH"
-    url: "https://api.runpod.ai/v2/sdxl/runsync"
+    api.key: ${RUNPOD_API_KEY}
+    url: ${RUNPOD_URL}
